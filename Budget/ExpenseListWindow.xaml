@@ -1,0 +1,18 @@
+﻿<Window x:Class="Budget.ExpenseListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Expense List" Height="477.509" Width="467.128" ResizeMode="NoResize">
+    <Grid>
+        <DataGrid Name="DataGrid_expenses" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top" Height="279" Width="439"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Name="Textbox_name" Height="23" Margin="57,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <Label Content="Payment Amt" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TextBox_paymentAmt" HorizontalAlignment="Left" Height="23" Margin="97,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Last Date Paid" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Height="26"/>
+        <DatePicker Name="DatePicker_lastPaidDate" HorizontalAlignment="Left" Margin="100,89,0,0" VerticalAlignment="Top" Width="117"/>
+        <Label Content="Payment Frequency" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.086,-0.134" Width="115" Height="25"/>
+        <ComboBox Name="ComboBox_frequency" HorizontalAlignment="Left" Margin="130,121,0,0" VerticalAlignment="Top" Width="170"/>
+        <Button Content="Add" Name="Button_add" HorizontalAlignment="Left" Margin="374,121,0,0" VerticalAlignment="Top" Width="75" Click="Button_add_Click"/>
+
+    </Grid>
+</Window>

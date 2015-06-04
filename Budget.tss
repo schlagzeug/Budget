@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\seth\documents\visual studio 2013\projects\budget\budget\enums.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\seth\documents\visual studio 2013\projects\budget\budget\expense.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\seth\documents\visual studio 2013\projects\budget\budget\income.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\seth\documents\visual studio 2013\projects\budget\budget\itransaction.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\seth\documents\visual studio 2013\projects\budget\budget\mainwindow.xaml</string>
+      <string>c:\users\seth\documents\visual studio 2013\projects\budget\budget\mainwindow.xaml.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\seth\documents\visual studio 2013\projects\budget\budget\paymentplan.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\seth\documents\visual studio 2013\projects\budget\budget\payperiod.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\seth\documents\visual studio 2013\projects\budget\budget\expenselistwindow.xaml</string>
+      <string>C:\Users\Seth\Documents\Visual Studio 2013\Projects\Budget\Budget\ExpenseListWindow.xaml.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
