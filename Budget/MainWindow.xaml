@@ -18,11 +18,18 @@
             <ComboBox HorizontalAlignment="Stretch" Name="ComboBox_payPeriods" Margin="74,0,105,0" VerticalAlignment="Top" />
             <Button Content="New Pay Period" Name="Button_newPayPeriod" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" Width="100" Click="Button_newPayPeriod_Click"/>
 
-            <Label Content="Income:" HorizontalAlignment="Left" Margin="0,28,0,0" VerticalAlignment="Top"/>
-            <DataGrid HorizontalAlignment="Stretch" Name="DataGrid_income" Margin="0,56,0,0" VerticalAlignment="Top" Height="84" MouseDoubleClick="DataGrid_income_MouseDoubleClick"/>
-            
-            <Label Content="Expenses:" HorizontalAlignment="Left" Margin="0,145,0,0" VerticalAlignment="Top" />
-            <DataGrid HorizontalAlignment="Stretch" Name="DataGrid_expenses" Margin="0,173,0,0" VerticalAlignment="Stretch" MouseDoubleClick="DataGrid_expenses_MouseDoubleClick"/>
+            <Grid Margin="0,28,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.25*"/>
+                    <RowDefinition Height="0.75*"/>
+                </Grid.RowDefinitions>
+                
+                <Label Grid.Row="0" Content="Income:" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top"/>
+                <DataGrid Grid.Row="0" HorizontalAlignment="Stretch" Name="DataGrid_income" Margin="0,28,0,0" VerticalAlignment="Stretch" MouseDoubleClick="DataGrid_income_MouseDoubleClick"/>
+                
+                <Label Grid.Row="1" Content="Expenses:" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" />
+                <DataGrid Grid.Row="1" HorizontalAlignment="Stretch" Name="DataGrid_expenses" Margin="0,28,0,0" VerticalAlignment="Stretch" MouseDoubleClick="DataGrid_expenses_MouseDoubleClick"/>
+            </Grid>
         </Grid>
     </Grid>
 </Window>
